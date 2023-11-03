@@ -79,6 +79,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'Keguadachin.wsgi.application'
+WSGI_APPLICATION = 'gunicorn keguadachin.wsgi'
 
 
 # Database
